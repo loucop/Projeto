@@ -1,0 +1,131 @@
+/* Estilo para a página de alteração de cadastro */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header #content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header #user {
+    margin-right: 20px;
+}
+
+header #user span {
+    font-weight: bold;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logout {
+    margin-left: 20px;
+}
+
+#logout a button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#logout a button:hover {
+    background-color: #555;
+}
+
+#content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#subheader {
+    background-color: #444;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-color: #333;
+    border-radius: 5px;
+}
+
+#subheader ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#subheader ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#subheader ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#subheader ul li a:hover {
+    text-decoration: underline;
+}
+
+#tabelaUsuarios {
+    margin-top: 20px;
+}
+
+#user {
+    font-weight: bold;
+    color: #333;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table a {
+    text-decoration: none;
+    color: #333;
+}
+
+table a:hover {
+    text-decoration: underline;
+}

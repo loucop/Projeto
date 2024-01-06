@@ -1,0 +1,200 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header #content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: #333;
+}
+
+header #user {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color:#333
+
+}
+
+header #user span {
+    font-weight: bold;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logout {
+    margin-left: 20px;
+}
+
+#logout a button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#logout a button:hover {
+    background-color: #555;
+}
+
+#content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+}
+
+#content .title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#content table th,
+#content table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#content table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#content table td button.excluir {
+    padding: 5px 10px;
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#content table td button.excluir:hover {
+    background-color: #ff6666;
+}
+
+#subheader {
+    background-color: #444;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-color: #333;
+    border-radius: 5px;
+}
+
+#subheader ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#subheader ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#subheader ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#subheader ul li a:hover {
+    text-decoration: underline;
+}
+
+fieldset {
+    margin-top: 20px;
+    border: 20px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    justify-items: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.sucesso {
+    color: green;
+}
+
+.erro {
+    color: red;
+}

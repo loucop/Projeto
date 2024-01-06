@@ -1,0 +1,118 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+#formulario {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#formulario input[type="text"],
+#formulario input[type="password"],
+#formulario input[type="email"],
+#formulario select {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#formulario button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #555;
+}
+
+
+#mensagem {
+    text-align: center;
+    margin-bottom: 10px;
+    color: red;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#resposta {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Ícones */
+#formulario i {
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 12px);
+    font-size: 24px;
+    color: #ccc;
+}
+
+/* Texto para login */
+#textoLogin {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#textoLogin .title {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#textoLogin .subtitle {
+    display: block;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#textoLogin button a {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+#textoLogin button:hover {
+    color: #555;
+}
+
